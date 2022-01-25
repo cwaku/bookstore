@@ -1,12 +1,8 @@
 import './Books.css';
+import Books from '../components/Book';
 
-export default function Books() {
+export default function AddBooks() {
   return (
-    <main>
-      <div className="books-container">
-        <p>No books added</p>
-        <button type="button">Remove</button>
-      </div>
-    </main>
+    <Books />
   );
 }
