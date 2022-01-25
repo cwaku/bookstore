@@ -5,7 +5,8 @@ export default function Navbar() {
   return (
     <header>
       <nav>
-        <ul>
+        <h1>Bookstore CMS</h1>
+        <ul className="nav-links">
           <li>
             <Link to="/">Books</Link>
           </li>
