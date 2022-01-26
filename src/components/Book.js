@@ -2,7 +2,7 @@ import { useDispatch } from 'react-redux';
 import { v4 as uuidv4 } from 'uuid';
 import { useState } from 'react';
 import { addBook, removeBook } from '../redux/books/books';
-import BooksList from './BookList';
+import BookList from './BookList';
 
 const Books = function ShowBooks() {
   const dispatch = useDispatch();
@@ -31,7 +31,7 @@ const Books = function ShowBooks() {
   return (
     <main>
       <div className="books-container">
-        <BooksList removeBook={removeBookFromStore} />
+        <BookList removeBook={removeBookFromStore} />
         <form className="add-form">
           <input type="text" placeholder="Title" onChange={(e) => setTitle(e.target.value)} />
           <input type="text" placeholder="Author" onChange={(e) => setAuthor(e.target.value)} />
