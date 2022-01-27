@@ -1,3 +1,8 @@
+.bookItem {
+  display: flex;
+  align-items: center;
+}
+
 .books-container,
 .add-form {
   display: flex;
