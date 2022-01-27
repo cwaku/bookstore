@@ -27,9 +27,7 @@ export const getBooks = (payload) => ({
 
 export const createStoreAPI = () => {
   axios.post('https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/')
-    .then((response) => {
-      console.log(response.data);
-    });
+    .then((response) => response.data);
 };
 
 export const fetchBooks = () => async (dispatch) => {

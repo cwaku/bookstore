@@ -23,11 +23,6 @@ const Books = function ShowBooks() {
     dispatch(addBookAPI(newBook));
   };
 
-  // eslint-disable-next-line camelcase
-  // const removeBookFromStore = (item_id) => {
-  //  dispatch(removeBook(item_id));
-  // };
-
   // display books
   return (
     <main>
