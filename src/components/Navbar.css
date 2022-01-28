@@ -1,6 +1,7 @@
 header {
   border-bottom: 1px solid #e6e6e6;
 }
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -11,7 +12,7 @@ nav {
 }
 
 nav h1 {
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.875rem;
   font-weight: bold;
   font-stretch: normal;
@@ -31,7 +32,7 @@ nav h1 {
 a {
   text-decoration: none;
   color: #121212;
-  font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.875rem;
   font-stretch: normal;
   font-style: normal;
@@ -49,7 +50,6 @@ a {
 
 .nav-links:first-child {
   font-weight: bold;
-
 }
 
 .user-circle {
