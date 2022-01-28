@@ -1,3 +1,6 @@
+header {
+  border-bottom: 1px solid #e6e6e6;
+}
 nav {
   display: flex;
   justify-content: space-around;
@@ -27,7 +30,7 @@ nav h1 {
 
 a {
   text-decoration: none;
-  color: var(--black-two);
+  color: #121212;
   font-family: Montserrat;
   font-size: 0.875rem;
   font-stretch: normal;
@@ -52,9 +55,7 @@ a {
 .user-circle {
   color: #0290ff;
   right: 10rem;
-  margin-top: 2rem;
   font-size: 2rem;
-  position: absolute;
   border: solid rgb(200, 200, 200) 0.0313rem;
   border-radius: 2rem;
   background-color: #f3f3f3;

@@ -59,6 +59,7 @@ const BookItem = (book) => {
           <p className="completed">Completed</p>
         </div>
       </div>
+      <div className="book-hr" />
       <div className="Updates-Panel">
         <p className="currentChapter">CURRENT CHAPTER</p>
         <p className="ChapterNumber">Chapter 16</p>

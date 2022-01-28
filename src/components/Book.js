@@ -29,12 +29,13 @@ const Books = function ShowBooks() {
       <div className="books-container">
         <BookList />
       </div>
+      <div className="hr" />
       <form className="add-form">
-        <h2>ADD NEW BOOK</h2>
+        <h2 className="addBookHeader">ADD NEW BOOK</h2>
         <div className="inputs">
-          <input type="text" placeholder="Title" value={title} onChange={(e) => setTitle(e.target.value)} />
-          <input type="text" placeholder="Category" value={category} onChange={(e) => setCategory(e.target.value)} />
-          <button type="button" onClick={submitBookToStore}>Add Book</button>
+          <input type="text" placeholder="Title" className="setTitle" value={title} onChange={(e) => setTitle(e.target.value)} />
+          <input type="text" placeholder="Category" className="setCategory" value={category} onChange={(e) => setCategory(e.target.value)} />
+          <button type="button" className="addBookBTN" onClick={submitBookToStore}>Add Book</button>
         </div>
       </form>
     </main>
