@@ -40,7 +40,6 @@ const BookItem = (book) => {
       <div className="Oval-2">
         <CircularProgressbar
           value={percentage}
-          // text={`${percentage}%`}
           styles={buildStyles({
             // Rotation of path and trail, in number of turns (0-1)
             rotation: 0.25,
