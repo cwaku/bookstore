@@ -1,5 +1,6 @@
 import './Navbar.css';
 import { Link } from 'react-router-dom';
+import { FaUser } from 'react-icons/fa';
 
 export default function Navbar() {
   return (
@@ -14,6 +15,9 @@ export default function Navbar() {
             <Link to="/categories">Categories</Link>
           </li>
         </ul>
+        <div className="user-circle">
+          <FaUser />
+        </div>
       </nav>
     </header>
   );
