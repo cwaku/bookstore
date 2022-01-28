@@ -12,11 +12,22 @@ const BookItem = (book) => {
   };
   return (
     <div className="bookItem">
-      <h3>Title</h3>
-      <span>{title}</span>
-      <h3>Category</h3>
-      <span>{category}</span>
-      <button type="button" onClick={removeBookFromStore}>Remove</button>
+      <div className="bookItem__info">
+        <span>{category}</span>
+        <h3>{title}</h3>
+        <span>Author</span>
+        <div className="bookItem__actions">
+          <button type="button" className="bookItem_actions_BTN">Comments</button>
+          <button type="button" className="bookItem_actions_BTN" onClick={removeBookFromStore}>Remove</button>
+          <button type="button" className="bookItem_actions_BTN">Edit</button>
+        </div>
+      </div>
+      <div className="Oval-2" />
+      <div className="Updates-Panel">
+        <p className="currentChapter">CURRENT CHAPTER</p>
+        <p className="ChapterNumber">Chapter 16</p>
+        <button type="button" className="progressBtn">UPDATE PROGRESS</button>
+      </div>
     </div>
   );
 };

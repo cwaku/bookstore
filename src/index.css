@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
+
 body {
   margin: 0;
   font-family:
     -apple-system,
     BlinkMacSystemFont,
+    'Roboto Slab',
     'Segoe UI',
     'Roboto',
     'Oxygen',

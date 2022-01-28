@@ -1,20 +1,81 @@
+* {
+  font-family: RobotoSlab;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+}
+
+main {
+  height: 100vh;
+    border-radius: 4px;
+    box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
+    background-color: #fafafa;
+}
+
 .bookItem {
   display: flex;
-  align-items: center;
+  justify-content: space-around;
 }
 
 .books-container,
 .add-form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .add-form {
-  margin-top: 50px;
+  margin: 20px auto;
 }
 
 span {
   margin: 10px;
+}
+
+.bookItem_actions_BTN {
+  font-size: 0.875rem;
+  letter-spacing: normal;
+  color: #4386bf;
+  border: none;
+  background-color: #fff;
+}
+
+.Oval-2 {
+  width: 4.25rem;
+  height: 4.25rem;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 50%;
+  border-image-source: linear-gradient(to bottom, #307bbe, #379cf6);
+  border-image-slice: 1;
+}
+
+.currentChapter,
+.ChapterNumber {
+  opacity: 0.5;
+  font-size: 0.813rem;
+  letter-spacing: normal;
+  color: var(--black-two);
+}
+
+.ChapterNumber {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.progressBtn {
+  
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #fff;
+  padding: 0.438rem 1.188rem 0.5rem 1.375rem;
+  border-radius: 3px;
+  background-color: #0290ff;
+  border: none;
+}
+
+.inputs {
+  display: flex;
+  margin: 10px;
+  justify-content: space-around;
 }
