@@ -3,6 +3,8 @@ nav {
   justify-content: space-around;
   padding: 20px;
   align-items: center;
+  width: 70%;
+  margin: 0 auto;
 }
 
 nav h1 {
@@ -19,11 +21,44 @@ nav h1 {
 .nav-links {
   display: flex;
   list-style: none;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+  padding: 0;
+  flex: 1;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black-two);
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
 }
 
 .nav-links li {
   margin: 20px;
+}
+
+.nav-links li:nth-child(1) a {
+  font-weight: bold;
+}
+
+.nav-links:first-child {
+  font-weight: bold;
+
+}
+
+.user-circle {
+  color: #0290ff;
+  right: 10rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+  position: absolute;
+  border: solid rgb(200, 200, 200) 0.0313rem;
+  border-radius: 2rem;
+  background-color: #f3f3f3;
+  height: 2rem;
+  cursor: pointer;
+  padding: 0.3125rem;
 }

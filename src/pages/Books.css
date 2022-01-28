@@ -16,12 +16,18 @@ main {
 .bookItem {
   display: flex;
   justify-content: space-around;
+  border-radius: 4px;
+  border: solid 1px var(--white-two);
+  background-color: #fff;
+  margin: 10px 30px;
 }
 
 .books-container,
 .add-form {
   display: flex;
   flex-direction: column;
+  width: 90%;
+  margin: 50px auto;
 }
 
 .add-form {
