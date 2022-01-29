@@ -16,10 +16,9 @@
 
 ## Deployed On
 
-#### Click on these bagdes to see the deployed 
-[![](https://img.shields.io/badge/Deployed-Netlify-blueviolet)]()
+#### Click on the badge below to see the deployed version of the app:
 
-[![](https://img.shields.io/badge/Deployed-Heroku-blueviolet)]()
+[![](https://img.shields.io/badge/Deployed-Heroku-blueviolet)](https://ricky-bookstore.herokuapp.com/)
 
 ## Getting Started
 
